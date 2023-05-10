@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wnameth=device-wnameth, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/3e0734b044.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+<body class="registerBody">
+    <div class="container">
+        <div class="form-box">
+            <h1>Login</h1>
+            <form method="POST" action="/login">
+                <div class="input-group">
+                    <div class="input-field">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input type="email" placeholder="Email" name="email">
+                     </div>
+                     <div class="input-field">
+                        <i class="fa-regular fa-lock"></i>
+                        <input type="password" placeholder="Password" name="password">
+                     </div>
+                     <p>Lost password <a href="#">Click Here</a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="submit" value="login">login</button>
+                    <button type="button"><a href="/register">Sign Up</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

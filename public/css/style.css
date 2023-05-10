@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+* {
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+}
+
+html {
+  /* font-size: 62.5%; */
+  scroll-behavior: smooth; 
+}
+.navbar-style{
+    background-color: #f8f9fa;
+    box-shadow:2px 4px 13px 1px rgba(8,8,8,0.04);
+}
+.images{
+    width: 100%;
+}
+.data-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items:flex-start;
+}
+.data-content h1{
+    font-size:3rem;
+    font-weight: bold;
+}
+.blur{
+    color: #777676;
+
+}
+.highlight-heading{
+    color: #5222d0;
+}
+.data-content p{
+    font-size: 1.2rem;
+    color: #777676;
+
+}
+ .highlight{
+    color: darkgreen;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-heading {
+    font-size: 3rem;
+    color: #fd5c63;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }
+  .sub-heading {
+    font-size: 1.7rem;
+    letter-spacing: 3px;
+    line-height: 1.2;
+    color: #333;
+    font-weight: 500;
+  }
+
+
+  .box{ 
+    position: relative;
+    padding-right:15px;
+    padding-left: 15px;
+    width: 100%;
+  }
+  
+  .our-services{
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 30px;
+    min-height: 190px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 25px 0 rgba(20,27,202,0.17);;
+    transition:all 0.5s ease-in-out 
+  }
+  .our-services .icon{
+    margin-bottom: -21px;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  .our-services:hover h4,
+  .our-services:hover p{
+    color: #fff;
+  }
+  .settings:hover{
+    box-shadow: 15px 15px 25px 10 rgba(20,27,201,0.2);
+    cursor: pointer;
+    background-image: linear-gradient(-45deg,#5035ec 0%, #44a2f6 50%); 
+    
+  }
+  .margin-10{
+    margin: 7rem 0;
+  }
+/* Registration page css */
+.form-box{
+  width: 90%;
+  max-width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgb(119, 117, 117);
+  padding: 50px 60px 70px;
+  text-align: center;
+  border-radius: 5px;
+}
+.registerBody{
+  background-color: rgb(107, 107, 110);
+}
+.form-box h1{
+  font-size: 35px;
+  font-weight: bolder;
+  margin-bottom: 60px;
+  color: #3c00a0;
+  position: relative;
+}
+.form-box h1::after{
+  content: '';
+  width: 30px;
+  height: 4px;
+  border-radius: 3px;
+  background: #3c00a0;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.input-group{
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  margin: 0 5px;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+.input-field{
+   width: 70%;
+   align-self: center;
+   /* margin: auto; */
+   padding: 10px;
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-around;
+   /* background-color: blue; */
+}
+.input-field input{
+  padding: 10px 30px;
+  border-radius: 8px;
+  background-color: rgb(87, 86, 86);
+  color: #3c00a0;
+  font-size: 20px;
+  margin: 0 5px;
+}
+form p{
+  text-align: left;
+  font-size: 13px;
+}
+form p a{
+  text-decoration: none;
+  color: #3c00a0;
+}
+ .btn-field{
+   width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  align-self: center; 
+  /* background-color: red; */
+  margin: auto;
+} 
+.btn-field button{
+  background-color: #3c00a0;
+  padding: 7px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
